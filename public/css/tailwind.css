@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+div:has(> .selectInput) {
+  min-width: 150px;
+}
